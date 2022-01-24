@@ -27,6 +27,7 @@ def collect_data():
         for element in range(offset, offset + step_size, 60):
             # max_offset=8922
             # price = 1500
+            #w
             url = f'https://inventories.cs.money/5.0/load_bots_inventory/730?buyBonus=40&isStore=true&limit=60&maxPrice=10000&minPrice=1500&offset={element}&type=13&withStack=true'
             response = requests.get(
                 url=url,
